@@ -58,9 +58,8 @@ a {
 
 /*header style*/
 .header {
-	position: relative;
 	background-image: url('../images/headerback.jpg');
-
+	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
 }
@@ -218,4 +217,11 @@ a {
 .contact-form .right .form-control::placeholder {
 	color: #888;
 	font-size: 16px;
+}
+
+.bg-dark {
+	background-color: #343a40 !important;
+}
+.bg-primary {
+	background-color: #007bff !important;
 }
